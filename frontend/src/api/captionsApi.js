@@ -14,7 +14,7 @@ export async function uploadVideo(file) {
     const formData = new FormData();
     formData.append('video', file);
 
-    const response = await axios.post('/api/upload', formData, {
+    const response = await axios.post('https://remotion-captioning-platform.onrender.com/api/upload', formData, {
         headers: {
             'Content-Type': 'multipart/form-data'
         }

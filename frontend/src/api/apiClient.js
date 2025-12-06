@@ -4,7 +4,7 @@ import axios from 'axios';
  * API Client Configuration
  */
 
-const API_BASE_URL = "https://remotion-caption-platform.netlify.app/"
+const API_BASE_URL = "https://remotion-captioning-platform.onrender.com"
 
 const apiClient = axios.create({
     baseURL: API_BASE_URL,
